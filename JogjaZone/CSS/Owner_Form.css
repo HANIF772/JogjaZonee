@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #6DC045;
+    height: 10%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 0 9px 0;
+    position: sticky;
+    top: 1px;
+}
+
+.header-left-logo {
+    flex: 0.8;
+}
+
+.main-logo {
+    width: 80%;
+    height: 80%;
+    padding-left: 40px;
+}
+
+.header-left-name {
+    flex: 7.5;
+    padding-left: 0;
+    font-weight: 400;
+}
+
+.header-right {
+    flex: 1;
+    text-align: center;
+
+}
+
+.about {
+    flex: 1;
+    text-align: center;
+}
+
+.support {
+    flex: 1;
+    text-align: center;
+}
+
+.burger {
+    flex: 0.5;
+    justify-content: right;
+    padding-left: 20px;
+}
+
+.burg {
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+}
+
+
+/* .header {
+    background-color: #6DC045;
+    padding: 2em;
+    height: 2%;
+    position: sticky;
+    top: 1px;
+}
+
+.header-left {
+    width: 15%;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    height: 100%;
+}
+
+.header-left h2 {
+    padding-left: 1em;
+}
+
+.main-logo {
+    width: 4em;
+}
+
+.header-right{
+    margin-left: 10em;
+    float: right;
+}
+
+.header-right a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2vw;
+    margin: 1em;
+    font-weight: 400;
+
+}
+
+.menuburger {
+    width: 1.5em;
+} */
+
+/* h2 {
+    font-size: 2vw;
+    display: inline;
+    text-decoration: none;
+} */
+
+/* .icon {
+    width: 4em;
+} */
+
+
+/* BODY */
+
+.body {
+    width: 100%;
+    height: 85%;
+}
+
+/* SIDEBAR */
+
+.left {
+    background-color:#DBFF90;
+    float: left;
+    width: 7%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 160vh;
+}
+
+.formleft {
+    margin: 3em 1em 2em 1.2em;
+    text-align: center;
+    position: sticky;
+    top: 3em;
+}
+
+.placeleft {
+    margin: 3em 1em 2em 1em;
+    text-align: center;
+    position: sticky;
+    top: 12em;
+}
+
+/* ISI */
+
+.right {
+    background-color: #fff;
+    float: left;
+    text-align: center;
+    padding-top:3em;
+    width: 92%;
+}
+
+.box-place {
+    text-align: center;
+    /* border: 1px solid; */
+    height: 100%;
+    width: 70%;
+    /* right: 40%; */
+    margin: 2em 10% 2em 15%;
+}
+
+.form {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+/* .titik{ 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 5px;
+    font-weight: bolder;
+    padding-top: 12px;
+    padding-left: 5px;
+    padding-right: 10px;
+    float: left;
+    margin-right: 5px;
+} */
+
+/* .label-form {
+    float: left;
+    padding-left: 10%;
+    padding-right: 0;
+    margin-right: 0;
+    padding-top: 0px;
+} */
+label {
+    margin: 2px 15rem 4rem 0;
+}
+
+input {
+    margin: 8px 0 2px 0;
+    height: 36px;
+    background-color: #B9B9B9;
+    border: none;
+    width: 30%;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+select {
+    appearance: none;
+    border: 1px solid gray;
+    outline: 0;
+    font: inherit;
+    width: 19rem;
+    margin: 0 0 12px 2px;
+    padding: 1rem 4rem 1rem 1rem;
+    background: url("dropdown-arrow.png") no-repeat right 0.8em center / 1.4em, linear-gradient(to left, #474845 3em, #D9D9D9 3em);
+    color: black;
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: medium;
+    
+    &::-ms-expand {
+      display: none;
+    }
+    
+    &:focus {
+      outline: none;
+    }
+    
+    option {
+      color: inherit;
+      background-color: #D9D9D9;
+    }
+  }
+
+/* .input-form {
+    float: left;
+} */
+
+textarea {
+    resize: none;
+    background: #B9B9B9;
+    border-radius: 5px;
+    width: 19rem;
+    margin-top: 10px;
+}
+
+#checkbox-facility {
+    margin-left: 16rem ;
+    padding-left: 1rem;
+    text-align: left;
+}
+
+.facility-choices {
+    margin-right: -11%;
+    padding-bottom: 15rem;
+}
+
+.buttons {
+    bottom: 5px;
+    margin-right: 3vh;
+}
+
+.input-button {
+  align-items: center;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 45px;
+  max-width: 120px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+}
+
+#submit-button {
+    background-color: #8CC80A;
+    margin-right: 2vh;
+}
+
+#clear-button {
+    background-color: #CB2424;
+    margin-left: 2vh;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 0.5em;
+    background-color: #E9E9E9;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.drpdown {
+    padding: 0;
+    border: none;
+    background-color: #6DC045;
+    color: white;
+    font-size: 16px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: -200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+  
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+  
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
